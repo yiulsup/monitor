@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>610</width>
-    <height>402</height>
+    <width>762</width>
+    <height>454</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -29,6 +29,9 @@
          <property name="text">
           <string/>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
         </widget>
        </item>
        <item row="0" column="1">
@@ -38,6 +41,9 @@
          </property>
          <property name="text">
           <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
        </item>
@@ -68,7 +74,10 @@
           <string notr="true">background-color: rgb(145, 65, 172);</string>
          </property>
          <property name="text">
-          <string/>
+          <string>Preparing the breathing rate</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
          </property>
         </widget>
        </item>
@@ -82,7 +91,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>610</width>
+     <width>762</width>
      <height>22</height>
     </rect>
    </property>
