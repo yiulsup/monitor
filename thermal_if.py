@@ -130,6 +130,7 @@ while True:
     uint_img = np.array(image).astype('uint8')
     grayImage = cv2.cvtColor(uint_img, cv2.COLOR_GRAY2BGR)
     grayImage = cv2.resize(grayImage, (320, 240))
+    grayImage = cv2.flip(grayImage, 1)
 
     cv2.imshow('d', grayImage)
     cv2.waitKey(1)
