@@ -7,7 +7,6 @@ import numpy as np
 import threading
 import signal
 import time
-import numpy as np
 import binascii
 import queue
 
